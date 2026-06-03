@@ -1,0 +1,6 @@
+{
+  "name": "健康档案 (health_records)",
+  "description": "家庭健康报告集中归档与长期保存系统，支持家庭成员档案建设、体检指标趋势提取及数据加密隐私保护选项。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

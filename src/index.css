@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-health-green: #10B981;
+  --color-health-light: #ECFDF5;
+  --color-soft-border: #F3F4F6;
+  --color-brand-primary: #743AF6;
+  --color-brand-light: #F0EEFF;
+  --color-brand-hover: #5D26D7;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  background-color: #F8F9FC;
+  color: #101828;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 30px -10px rgba(116, 58, 246, 0.05), 0 1px 3px rgba(116, 58, 246, 0.02);
+}
+
+.border-soft {
+  border-color: #F3F4F6;
+}
+
+.health-green {
+  color: #10B981;
+}
+
+.bg-health-green {
+  background-color: #10B981;
+}
+
+.bg-health-light {
+  background-color: #ECFDF5;
+}
+
+.bg-brand-primary {
+  background-color: #743AF6;
+}
+
+.text-brand-primary {
+  color: #743AF6;
+}
